@@ -38,17 +38,17 @@ const AddTaskForm = (props) => {
                 value={props.priority}
                 label="priority"
                 onChange={(event) => props.change(event)}>
-                <MenuItem value="low">
+                <MenuItem value="Low">
                   <ListItemIcon>
                     <LowPriorityIcon />
                   </ListItemIcon>
                   Low</MenuItem>
-                <MenuItem value="medium">
+                <MenuItem value="Medium">
                   <ListItemIcon>
                     <AlarmAddIcon />
                   </ListItemIcon>
                   Medium</MenuItem>
-                <MenuItem value="high">
+                <MenuItem value="High">
                   <ListItemIcon>
                     <PriorityHighIcon />
                   </ListItemIcon>
